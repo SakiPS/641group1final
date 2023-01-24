@@ -130,7 +130,7 @@ a.button {
     background-color: #00736D;
     border-radius: 100vh;
     color: white;
-/*     height: 57px;  line 461 572 776*/
+    height: 57px;
     padding: 1.5rem 2.5rem;
     text-decoration: none;
 }
