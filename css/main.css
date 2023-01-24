@@ -130,7 +130,7 @@ a.button {
     background-color: #00736D;
     border-radius: 100vh;
     color: white;
-    height: 57px;
+/*     height: 57px;  line 461 572 776*/
     padding: 1.5rem 2.5rem;
     text-decoration: none;
 }
@@ -458,6 +458,7 @@ section#hoursOp { padding: 1rem 0 1rem; }
         right: 2rem;
         top: 10px;
         width: 250px;
+	    height: 57px;
     }
     a#callButton:hover {
         background-color: #6DCFCA;
@@ -569,6 +570,7 @@ section#hoursOp { padding: 1rem 0 1rem; }
 /* call icon or button*/
     a#callIcon { display: none; }
     a#callButton {
+	    height: 57px;
         grid-column: 1/-1;
         order: 5;
         position: static;
@@ -675,6 +677,7 @@ section#hoursOp { padding: 1rem 0 1rem; }
     header.subPage a#callButton {
         grid-column: 1/-1;
         margin: 0 auto;
+	height: 57px;
     }
     header.subPage a.hButton:hover, header.subPage a#callButton:hover  {
         background-color: #00736D;
@@ -771,6 +774,7 @@ section#hoursOp { padding: 1rem 0 1rem; }
         grid-column: 3/4;
         order: 3;
         margin: 10px 30px 0 0;
+	    height: 57px;
     }
     header { grid-template-columns: repeat(3,auto); }
 /***********For SUBPAGE Only ***********/
